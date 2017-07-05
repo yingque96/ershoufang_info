@@ -15,8 +15,8 @@ print size
 price_mean = numpy.mean(price)
 size_mean = numpy.mean(size)
 
-print "平均价格为：", price_mean, 
-print "平均面积为：", size_mean， 
+print "平均价格为：", price_mean 
+print "平均面积为：", size_mean
 
 # 求价格和面积的方差
 price_var = numpy.var(price)
